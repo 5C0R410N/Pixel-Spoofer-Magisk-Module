@@ -1,0 +1,14 @@
+# Base Pixel Identity
+ro.product.model=Pixel 8 Pro
+ro.product.brand=google
+ro.product.manufacturer=Google
+ro.build.fingerprint=google/husky/husky:14/AP2A.240405.004/12080763:user/release-keys
+
+# Universal Camera Fix
+persist.camera.HAL3.enabled=1
+persist.vendor.camera.privapp.list=*
+vendor.camera.aux.packagelist=*
+
+# Safety Nets
+ro.boot.flash.locked=1
+ro.boot.verifiedbootstate=green
